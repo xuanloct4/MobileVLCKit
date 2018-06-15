@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A314AD720D36DB9002BEE29 /* DLCMobilePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A314ACD20D36DB9002BEE29 /* DLCMobilePlayer.framework */; };
+		1A314ADC20D36DB9002BEE29 /* DLCMobilePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A314ADB20D36DB9002BEE29 /* DLCMobilePlayerTests.m */; };
+		1A314B0220D36E34002BEE29 /* DLCBaseVideoContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A314AE820D36E34002BEE29 /* DLCBaseVideoContentView.xib */; };
+		1A314B0320D36E34002BEE29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A314AE920D36E34002BEE29 /* Images.xcassets */; };
+		1A314B0420D36E34002BEE29 /* MSWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A314AEC20D36E34002BEE29 /* MSWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A314B0520D36E34002BEE29 /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A314AED20D36E34002BEE29 /* MSWeakTimer.m */; };
+		1A314B0620D36E34002BEE29 /* DLCLiveVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A314AEF20D36E34002BEE29 /* DLCLiveVideoView.m */; };
+		1A314B0720D36E34002BEE29 /* UIDevice+DLCOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A314AF020D36E34002BEE29 /* UIDevice+DLCOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A314B0820D36E34002BEE29 /* DLCNetworkCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A314AF120D36E34002BEE29 /* DLCNetworkCenter.m */; };
+		1A314B0920D36E34002BEE29 /* DLCBaseVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A314AF220D36E34002BEE29 /* DLCBaseVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A314B0A20D36E34002BEE29 /* UIView+DLCAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A314AF320D36E34002BEE29 /* UIView+DLCAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A314B0B20D36E34002BEE29 /* DLCBaseVideoView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A314AF420D36E34002BEE29 /* DLCBaseVideoView+Snapshot.m */; };
+		1A314B0D20D36E34002BEE29 /* DLCLiveVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A314AF620D36E34002BEE29 /* DLCLiveVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A314B0E20D36E34002BEE29 /* UIDevice+DLCOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A314AF720D36E34002BEE29 /* UIDevice+DLCOrientation.m */; };
+		1A314B0F20D36E34002BEE29 /* UIView+DLCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A314AF820D36E34002BEE29 /* UIView+DLCAnimation.m */; };
+		1A314B1020D36E34002BEE29 /* DLCBaseVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A314AF920D36E34002BEE29 /* DLCBaseVideoView.m */; };
+		1A314B1120D36E34002BEE29 /* DLCNetworkCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A314AFA20D36E34002BEE29 /* DLCNetworkCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A314B1220D36E34002BEE29 /* DLCBaseVideoView+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A314AFB20D36E34002BEE29 /* DLCBaseVideoView+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A314B1320D36E34002BEE29 /* DLCMobilePlayer-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1A314AFC20D36E34002BEE29 /* DLCMobilePlayer-Prefix.pch */; };
+		1A314B1420D36E34002BEE29 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A314AFE20D36E34002BEE29 /* Aspects.h */; };
+		1A314B1520D36E34002BEE29 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A314AFF20D36E34002BEE29 /* Aspects.m */; };
+		1A314B1620D36E34002BEE29 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 1A314B0120D36E34002BEE29 /* .gitkeep */; };
+		1A314B1D20D37086002BEE29 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A314B1B20D37086002BEE29 /* Reachability.m */; };
+		1A314B1E20D37086002BEE29 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A314B1C20D37086002BEE29 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A314B2020D37145002BEE29 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A314B1F20D37145002BEE29 /* libstdc++.6.tbd */; };
+		1A314B2220D3714C002BEE29 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A314B2120D3714C002BEE29 /* libiconv.tbd */; };
+		1A314B2420D37153002BEE29 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A314B2320D37153002BEE29 /* libbz2.tbd */; };
+		1A314B2C20D37179002BEE29 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A314B2820D37179002BEE29 /* AudioToolbox.framework */; };
+		1A314B2E20D37335002BEE29 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A314B2D20D37335002BEE29 /* MobileVLCKit.framework */; };
+		1A314B4220D377D0002BEE29 /* DLCMobilePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A314B4120D377CF002BEE29 /* DLCMobilePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A314AD820D36DB9002BEE29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A314AC420D36DB9002BEE29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A314ACC20D36DB9002BEE29;
+			remoteInfo = DLCMobilePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A314ACD20D36DB9002BEE29 /* DLCMobilePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLCMobilePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A314AD120D36DB9002BEE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A314AD620D36DB9002BEE29 /* DLCMobilePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLCMobilePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A314ADB20D36DB9002BEE29 /* DLCMobilePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLCMobilePlayerTests.m; sourceTree = "<group>"; };
+		1A314ADD20D36DB9002BEE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A314AE820D36E34002BEE29 /* DLCBaseVideoContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLCBaseVideoContentView.xib; sourceTree = "<group>"; };
+		1A314AE920D36E34002BEE29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A314AEC20D36E34002BEE29 /* MSWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
+		1A314AED20D36E34002BEE29 /* MSWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
+		1A314AEF20D36E34002BEE29 /* DLCLiveVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCLiveVideoView.m; sourceTree = "<group>"; };
+		1A314AF020D36E34002BEE29 /* UIDevice+DLCOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DLCOrientation.h"; sourceTree = "<group>"; };
+		1A314AF120D36E34002BEE29 /* DLCNetworkCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCNetworkCenter.m; sourceTree = "<group>"; };
+		1A314AF220D36E34002BEE29 /* DLCBaseVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCBaseVideoView.h; sourceTree = "<group>"; };
+		1A314AF320D36E34002BEE29 /* UIView+DLCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DLCAnimation.h"; sourceTree = "<group>"; };
+		1A314AF420D36E34002BEE29 /* DLCBaseVideoView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DLCBaseVideoView+Snapshot.m"; sourceTree = "<group>"; };
+		1A314AF620D36E34002BEE29 /* DLCLiveVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCLiveVideoView.h; sourceTree = "<group>"; };
+		1A314AF720D36E34002BEE29 /* UIDevice+DLCOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DLCOrientation.m"; sourceTree = "<group>"; };
+		1A314AF820D36E34002BEE29 /* UIView+DLCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DLCAnimation.m"; sourceTree = "<group>"; };
+		1A314AF920D36E34002BEE29 /* DLCBaseVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCBaseVideoView.m; sourceTree = "<group>"; };
+		1A314AFA20D36E34002BEE29 /* DLCNetworkCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCNetworkCenter.h; sourceTree = "<group>"; };
+		1A314AFB20D36E34002BEE29 /* DLCBaseVideoView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DLCBaseVideoView+Snapshot.h"; sourceTree = "<group>"; };
+		1A314AFC20D36E34002BEE29 /* DLCMobilePlayer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DLCMobilePlayer-Prefix.pch"; sourceTree = "<group>"; };
+		1A314AFE20D36E34002BEE29 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		1A314AFF20D36E34002BEE29 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		1A314B0120D36E34002BEE29 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1A314B1820D36E59002BEE29 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = ../../MobileVLCKit.framework; sourceTree = "<group>"; };
+		1A314B1B20D37086002BEE29 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1A314B1C20D37086002BEE29 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1A314B1F20D37145002BEE29 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		1A314B2120D3714C002BEE29 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		1A314B2320D37153002BEE29 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		1A314B2520D37178002BEE29 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		1A314B2620D37179002BEE29 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1A314B2720D37179002BEE29 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		1A314B2820D37179002BEE29 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1A314B2D20D37335002BEE29 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = ../../../MobileVLCKit.framework; sourceTree = "<group>"; };
+		1A314B4120D377CF002BEE29 /* DLCMobilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCMobilePlayer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A314AC920D36DB9002BEE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A314B2E20D37335002BEE29 /* MobileVLCKit.framework in Frameworks */,
+				1A314B2C20D37179002BEE29 /* AudioToolbox.framework in Frameworks */,
+				1A314B2420D37153002BEE29 /* libbz2.tbd in Frameworks */,
+				1A314B2220D3714C002BEE29 /* libiconv.tbd in Frameworks */,
+				1A314B2020D37145002BEE29 /* libstdc++.6.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A314AD320D36DB9002BEE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A314AD720D36DB9002BEE29 /* DLCMobilePlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A314AC320D36DB9002BEE29 = {
+			isa = PBXGroup;
+			children = (
+				1A314ACF20D36DB9002BEE29 /* DLCMobilePlayer */,
+				1A314ADA20D36DB9002BEE29 /* DLCMobilePlayerTests */,
+				1A314ACE20D36DB9002BEE29 /* Products */,
+				1A314B1720D36E59002BEE29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A314ACE20D36DB9002BEE29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A314ACD20D36DB9002BEE29 /* DLCMobilePlayer.framework */,
+				1A314AD620D36DB9002BEE29 /* DLCMobilePlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A314ACF20D36DB9002BEE29 /* DLCMobilePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1A314AE720D36E34002BEE29 /* Assets */,
+				1A314AEA20D36E34002BEE29 /* Classes */,
+				1A314B0020D36E34002BEE29 /* Libs */,
+				1A314AD120D36DB9002BEE29 /* Info.plist */,
+			);
+			path = DLCMobilePlayer;
+			sourceTree = "<group>";
+		};
+		1A314ADA20D36DB9002BEE29 /* DLCMobilePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A314ADB20D36DB9002BEE29 /* DLCMobilePlayerTests.m */,
+				1A314ADD20D36DB9002BEE29 /* Info.plist */,
+			);
+			path = DLCMobilePlayerTests;
+			sourceTree = "<group>";
+		};
+		1A314AE720D36E34002BEE29 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1A314AE820D36E34002BEE29 /* DLCBaseVideoContentView.xib */,
+				1A314AE920D36E34002BEE29 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1A314AEA20D36E34002BEE29 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A314B1A20D37061002BEE29 /* Reachability */,
+				1A314AEB20D36E34002BEE29 /* MSWeakTimer */,
+				1A314AEE20D36E34002BEE29 /* MobilePlayer */,
+				1A314AFC20D36E34002BEE29 /* DLCMobilePlayer-Prefix.pch */,
+				1A314AFD20D36E34002BEE29 /* Aspects */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1A314AEB20D36E34002BEE29 /* MSWeakTimer */ = {
+			isa = PBXGroup;
+			children = (
+				1A314AEC20D36E34002BEE29 /* MSWeakTimer.h */,
+				1A314AED20D36E34002BEE29 /* MSWeakTimer.m */,
+			);
+			path = MSWeakTimer;
+			sourceTree = "<group>";
+		};
+		1A314AEE20D36E34002BEE29 /* MobilePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1A314B4120D377CF002BEE29 /* DLCMobilePlayer.h */,
+				1A314AEF20D36E34002BEE29 /* DLCLiveVideoView.m */,
+				1A314AF020D36E34002BEE29 /* UIDevice+DLCOrientation.h */,
+				1A314AF120D36E34002BEE29 /* DLCNetworkCenter.m */,
+				1A314AF220D36E34002BEE29 /* DLCBaseVideoView.h */,
+				1A314AF320D36E34002BEE29 /* UIView+DLCAnimation.h */,
+				1A314AF420D36E34002BEE29 /* DLCBaseVideoView+Snapshot.m */,
+				1A314AF620D36E34002BEE29 /* DLCLiveVideoView.h */,
+				1A314AF720D36E34002BEE29 /* UIDevice+DLCOrientation.m */,
+				1A314AF820D36E34002BEE29 /* UIView+DLCAnimation.m */,
+				1A314AF920D36E34002BEE29 /* DLCBaseVideoView.m */,
+				1A314AFA20D36E34002BEE29 /* DLCNetworkCenter.h */,
+				1A314AFB20D36E34002BEE29 /* DLCBaseVideoView+Snapshot.h */,
+			);
+			path = MobilePlayer;
+			sourceTree = "<group>";
+		};
+		1A314AFD20D36E34002BEE29 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				1A314AFE20D36E34002BEE29 /* Aspects.h */,
+				1A314AFF20D36E34002BEE29 /* Aspects.m */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		1A314B0020D36E34002BEE29 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				1A314B0120D36E34002BEE29 /* .gitkeep */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		1A314B1720D36E59002BEE29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A314B2D20D37335002BEE29 /* MobileVLCKit.framework */,
+				1A314B2820D37179002BEE29 /* AudioToolbox.framework */,
+				1A314B2720D37179002BEE29 /* AudioUnit.framework */,
+				1A314B2620D37179002BEE29 /* CoreAudio.framework */,
+				1A314B2520D37178002BEE29 /* CoreAudioKit.framework */,
+				1A314B2320D37153002BEE29 /* libbz2.tbd */,
+				1A314B2120D3714C002BEE29 /* libiconv.tbd */,
+				1A314B1F20D37145002BEE29 /* libstdc++.6.tbd */,
+				1A314B1820D36E59002BEE29 /* MobileVLCKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A314B1A20D37061002BEE29 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1A314B1C20D37086002BEE29 /* Reachability.h */,
+				1A314B1B20D37086002BEE29 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A314ACA20D36DB9002BEE29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A314B4220D377D0002BEE29 /* DLCMobilePlayer.h in Headers */,
+				1A314B1E20D37086002BEE29 /* Reachability.h in Headers */,
+				1A314B0720D36E34002BEE29 /* UIDevice+DLCOrientation.h in Headers */,
+				1A314B0A20D36E34002BEE29 /* UIView+DLCAnimation.h in Headers */,
+				1A314B0D20D36E34002BEE29 /* DLCLiveVideoView.h in Headers */,
+				1A314B0920D36E34002BEE29 /* DLCBaseVideoView.h in Headers */,
+				1A314B1120D36E34002BEE29 /* DLCNetworkCenter.h in Headers */,
+				1A314B1220D36E34002BEE29 /* DLCBaseVideoView+Snapshot.h in Headers */,
+				1A314B0420D36E34002BEE29 /* MSWeakTimer.h in Headers */,
+				1A314B1320D36E34002BEE29 /* DLCMobilePlayer-Prefix.pch in Headers */,
+				1A314B1420D36E34002BEE29 /* Aspects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A314ACC20D36DB9002BEE29 /* DLCMobilePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A314AE120D36DB9002BEE29 /* Build configuration list for PBXNativeTarget "DLCMobilePlayer" */;
+			buildPhases = (
+				1A314AC820D36DB9002BEE29 /* Sources */,
+				1A314AC920D36DB9002BEE29 /* Frameworks */,
+				1A314ACA20D36DB9002BEE29 /* Headers */,
+				1A314ACB20D36DB9002BEE29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLCMobilePlayer;
+			productName = DLCMobilePlayer;
+			productReference = 1A314ACD20D36DB9002BEE29 /* DLCMobilePlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A314AD520D36DB9002BEE29 /* DLCMobilePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A314AE420D36DB9002BEE29 /* Build configuration list for PBXNativeTarget "DLCMobilePlayerTests" */;
+			buildPhases = (
+				1A314AD220D36DB9002BEE29 /* Sources */,
+				1A314AD320D36DB9002BEE29 /* Frameworks */,
+				1A314AD420D36DB9002BEE29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A314AD920D36DB9002BEE29 /* PBXTargetDependency */,
+			);
+			name = DLCMobilePlayerTests;
+			productName = DLCMobilePlayerTests;
+			productReference = 1A314AD620D36DB9002BEE29 /* DLCMobilePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A314AC420D36DB9002BEE29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = loctv;
+				TargetAttributes = {
+					1A314ACC20D36DB9002BEE29 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1A314AD520D36DB9002BEE29 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 1A314AC720D36DB9002BEE29 /* Build configuration list for PBXProject "DLCMobilePlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A314AC320D36DB9002BEE29;
+			productRefGroup = 1A314ACE20D36DB9002BEE29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A314ACC20D36DB9002BEE29 /* DLCMobilePlayer */,
+				1A314AD520D36DB9002BEE29 /* DLCMobilePlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A314ACB20D36DB9002BEE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A314B1620D36E34002BEE29 /* .gitkeep in Resources */,
+				1A314B0220D36E34002BEE29 /* DLCBaseVideoContentView.xib in Resources */,
+				1A314B0320D36E34002BEE29 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A314AD420D36DB9002BEE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A314AC820D36DB9002BEE29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A314B0620D36E34002BEE29 /* DLCLiveVideoView.m in Sources */,
+				1A314B0F20D36E34002BEE29 /* UIView+DLCAnimation.m in Sources */,
+				1A314B1020D36E34002BEE29 /* DLCBaseVideoView.m in Sources */,
+				1A314B0B20D36E34002BEE29 /* DLCBaseVideoView+Snapshot.m in Sources */,
+				1A314B0E20D36E34002BEE29 /* UIDevice+DLCOrientation.m in Sources */,
+				1A314B0820D36E34002BEE29 /* DLCNetworkCenter.m in Sources */,
+				1A314B0520D36E34002BEE29 /* MSWeakTimer.m in Sources */,
+				1A314B1D20D37086002BEE29 /* Reachability.m in Sources */,
+				1A314B1520D36E34002BEE29 /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A314AD220D36DB9002BEE29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A314ADC20D36DB9002BEE29 /* DLCMobilePlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A314AD920D36DB9002BEE29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A314ACC20D36DB9002BEE29 /* DLCMobilePlayer */;
+			targetProxy = 1A314AD820D36DB9002BEE29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A314ADF20D36DB9002BEE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A314AE020D36DB9002BEE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A314AE220D36DB9002BEE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLCMobilePlayer/Classes/DLCMobilePlayer-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../MobileVLCKit.framework/Headers";
+				INFOPLIST_FILE = DLCMobilePlayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loctv.DLCMobilePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A314AE320D36DB9002BEE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLCMobilePlayer/Classes/DLCMobilePlayer-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../MobileVLCKit.framework/Headers";
+				INFOPLIST_FILE = DLCMobilePlayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loctv.DLCMobilePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A314AE520D36DB9002BEE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DLCMobilePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loctv.DLCMobilePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A314AE620D36DB9002BEE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DLCMobilePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loctv.DLCMobilePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A314AC720D36DB9002BEE29 /* Build configuration list for PBXProject "DLCMobilePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A314ADF20D36DB9002BEE29 /* Debug */,
+				1A314AE020D36DB9002BEE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A314AE120D36DB9002BEE29 /* Build configuration list for PBXNativeTarget "DLCMobilePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A314AE220D36DB9002BEE29 /* Debug */,
+				1A314AE320D36DB9002BEE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A314AE420D36DB9002BEE29 /* Build configuration list for PBXNativeTarget "DLCMobilePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A314AE520D36DB9002BEE29 /* Debug */,
+				1A314AE620D36DB9002BEE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A314AC420D36DB9002BEE29 /* Project object */;
+}

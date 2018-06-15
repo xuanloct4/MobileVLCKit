@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DLCMobilePlayer_Example' do
+    # pod 'DLCMobilePlayer', :path => '../'
+    # pod 'DLCMobilePlayer', :git => 'https://github.com/dklinzh/DLCMobilePlayer.git'
+    # pod 'MobileVLCKit'
+
+  target 'DLCMobilePlayer_Tests' do
+    inherit! :search_paths
+    
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
